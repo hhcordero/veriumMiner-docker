@@ -8,7 +8,7 @@ RUN set -x \
     && apt-get update \
     && apt-get upgrade -y \
     && apt-get --no-install-recommends install -y libcurl4-openssl-dev libjansson-dev $BUILD_DEPS \
-    && git clone https://github.com/effectsToCause/veriumMiner \
+    && git clone https://github.com/fireworm71/veriumMiner \
     && cd veriumMiner \
     && ./build.sh \
     && apt-get -y --auto-remove purge $BUILD_DEPS \
