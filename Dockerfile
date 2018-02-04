@@ -1,5 +1,5 @@
-FROM ubuntu:16.04
-LABEL maintainer="Pedro Lobo <https://github.com/pslobo>"
+FROM armv7/armhf-ubuntu:16.04
+LABEL maintainer="Hector Cordero <https://github.com/hhcordero>"
 LABEL Name="veriumMiner"
 LABEL Version="1"
 
